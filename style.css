@@ -1,0 +1,27 @@
+
+#countriesContainer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 7px;
+    color: brown;           
+}
+.displayCountries{
+    background-color: rgb(21, 216, 96);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+.center {
+    text-align: center;
+    background-color: bisque;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    background-color: greenyellow;
+    padding: 10px;
+}
